@@ -43,6 +43,27 @@ node repl
 
 </details>
 
+<details>
+<summary><strong>PC version (you must have rust and tauri)</strong></summary>
+<br />
+
+```bash
+cargo install tauri-cli
+cargo tauri init
+cargo tauri dev
+
+```
+
+or
+
+```bash
+cargo tauri build
+```
+
+check you `src-tauri/target/release/app.exe`.
+
+</details>
+
 ## Other Version
 
 <details>
